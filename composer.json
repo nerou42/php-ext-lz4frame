@@ -1,6 +1,5 @@
 {
   "name": "nerou/lz4frame",
-  "version": "1.0.0",
   "type": "php-ext",
   "license": "MIT",
   "description": "Compress/decompress data to LZ4 blocks or frames",
