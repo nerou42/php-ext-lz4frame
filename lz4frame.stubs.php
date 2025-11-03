@@ -28,7 +28,7 @@ namespace {
      * @param bool legacy_frame if true, uses legacy frame format (not recommended)
      * @return string LZ4 frame
      */
-    function lz4frame_compress(string $data, ?int $content_size = null, int $block_size = 4, bool $blocks_linked = false, bool $block_checksums = false, bool $content_checksum = false, bool $legacy_frame = false): string {}
+    function lz4frame_compress(string $data, ?int $content_size = null, int $max_block_size = 4, bool $blocks_linked = false, bool $block_checksums = false, bool $content_checksum = false, bool $legacy_frame = false): string {}
 
     /**
      * Decompress data from LZ4 frame
