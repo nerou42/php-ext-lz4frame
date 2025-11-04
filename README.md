@@ -4,9 +4,9 @@ This extension adds support for the [LZ4 compression algorithm](https://github.c
 
 Unlike [kjdev/lz4](https://github.com/kjdev/php-ext-lz4), this extension...
 
-- is based on [lz4_flex](https://github.com/pseitz/lz4_flex)
+- is based on [lz4_flex](https://github.com/pseitz/lz4_flex) rather than [Cyan4973's LZ4](https://github.com/lz4/lz4)
 - supports the LZ4 Frame format, which adds checksums, magic bytes etc.
-- dows not (yet) support compression levels, since lz4_flex does not
+- does not (yet) support compression levels, since lz4_flex does not
 
 ## Install
 
