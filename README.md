@@ -1,5 +1,9 @@
 # LZ4 extension for PHP supporting Block and Frame format
 
+> [!NOTE]
+> The pull request to add LZ4 Frame format support to [kjdev/lz4](https://github.com/kjdev/php-ext-lz4/pull/38) has been merged, such that it supports the LZ4 Frame format since version 0.6.0.
+> Therefore and because this repository does not support compression levels, this repository is obsolete.
+
 This extension adds support for the [LZ4 compression algorithm](https://github.com/lz4/lz4).
 
 Unlike [kjdev/lz4](https://github.com/kjdev/php-ext-lz4), this extension...

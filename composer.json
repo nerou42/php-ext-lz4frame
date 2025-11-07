@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "Compress/decompress data to LZ4 blocks or frames",
   "homepage": "https://github.com/nerou42/php-ext-lz4frame",
+  "abandoned": "https://github.com/kjdev/php-ext-lz4",
   "replace": {
     "kjdev/lz4": "^0.5.0",
     "ext-lz4": "^0.5.0"
